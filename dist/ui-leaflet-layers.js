@@ -419,6 +419,5 @@ angular.module('ui-leaflet').config(['$provide', function ($provide) {
 angular.module('ui-leaflet').service('leafletLayersLogger', ['nemSimpleLogger', function (nemSimpleLogger) {
   return nemSimpleLogger.spawn();
 }]);
-//# sourceMappingURL=ui-leaflet-layers.js.map
 
 })(window, angular);
